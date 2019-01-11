@@ -6,7 +6,7 @@ Repository to help learn and teach Github
 
 # Setting up Github Repository through Github website:
 1 - So I'm going to assume you've first got a Github account sorted and set up. The first thing you want to do is head to [Github](https://github.com) and log into your account and create a new respository.
-![Image of how to create new repo](https://github.com/LtColCarter/GithubLearning/issues/1#issue-398434486)
+![Create new repo](https://user-images.githubusercontent.com/44203462/51057073-70be0300-15dc-11e9-92a0-446fd0cc5861.png)
 
 2 - (Make sure all of these are in the correct order once I get back up online)
 (a) Name your repository something short and memorable. (Add image)
