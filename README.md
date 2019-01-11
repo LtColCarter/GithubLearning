@@ -15,7 +15,7 @@ Repository to help learn and teach Github
 
 ![Repo name image](https://user-images.githubusercontent.com/44203462/51057444-85e76180-15dd-11e9-9673-54319092d9a8.png)
 
-(b) Setup a README.md document when you initialise your repository, just put a little description of that the repository will be used for.
+(b) I'd recommend writing a little description for setting up your repository, so just write a little description to describe this repository.
 
 ![Repo description name](https://user-images.githubusercontent.com/44203462/51057565-e8d8f880-15dd-11e9-8ecc-465e68f51d2c.png)
 
@@ -23,13 +23,25 @@ Repository to help learn and teach Github
 
 ![Public/Private image](https://user-images.githubusercontent.com/44203462/51057637-19b92d80-15de-11e9-9d6b-a193ad967457.png)
 
-A public repository is just like this one and anyone can access it, but only the people you choose can commit changes to it. Public also means people can also clone the repository or fork it. Forking a repository allows you to take a copy of the repository and then experiment on it freely without making any changes to the original project. Cloning I will get onto soon. If you want to read more about the difference in repositories, you can find it in [Github Help](https://help.github.com/articles/setting-repository-visibility/).
+A public repository is just like this one and anyone can access it, but only the people you choose can commit changes to it. Public also means people can also clone the repository or fork it. Forking a repository allows you to take a copy of the repository and then experiment on it freely without making any changes to the original project. Cloning I will get onto soon. If you want to read more about the different types of repositories, you can find it in [Github Help](https://help.github.com/articles/setting-repository-visibility/).
 
-A private repository can only be viewed and edited by you, unless you add certain people as collaborators. For example if you were working on a project, with a team of software engineers, and you didn't want your code open to the public you can all either work on the same branch (master) or work on specific branches of the repository and then at the end merge all of each other's into the master branch.
+A private repository can only be viewed and edited by you, unless you add certain people as collaborators. For example if you were working on a project, with a team of software engineers, and you didn't want your code open to the public you can all either work on the same branch (master) or work on specific branches of the repository and then at the end merge all of each other's into the master branch. Again if you want to read more about the different types of repositories, you can find it in [Github Help](https://help.github.com/articles/setting-repository-visibility/).
 
-You can also add a .gitignore file when initialising the repository so that you ignore certain types of files (check on this as well to get proper definition). Lastly you have to choose on a licence for your repository, this is more if you are looking to develop and then publish your code or a fully functioning program and so you can add a licence to protect you from people using any of your code (Check on this properly as I don't fully understand it as of yet). Both a public and private repository should have a licence. (Add image)
+For this option of creating a Github repository, you'll need to tick the "Initialize this repository with a README" because we're going to clone this repository onto your computer. If you don't want to use this option of creating a Github repository, please click here (Add link whenever I get down to the other way).
 
-(d) Once you've created your repository you can go ahead and open up your Windows Command Prompt, Linux Terminal or Mac Terminal. I'll assume you have a decent grasp of using the command line interface (e.g. navigating through folders). So you're going navigate to wherever you want your Github repository in your cmd/terminal window. Once you reach the folder, head back to your Github repository in your browser and click on "Clone or download" (image) and copy the HTTPS url. Back in your cmd/terminal window type "git clone https://github.com/your_username/your_repo_name.git" (paste the link from Github). This will clone your repository from Github to your local file system.
+![Readme tickbox](https://user-images.githubusercontent.com/44203462/51058487-d3b19900-15e0-11e9-8e7c-ed7b9324a235.png)
+
+Leave the .gitignore tickbox unticked as I'll set this up once we clone your repository. A .gitignore file contains a list of file extensions that git will ignore when tracking any changes you make to files inside the repository. If you want to read more about using a .gitignore file [click here](https://help.github.com/articles/ignoring-files/). You can of course setup the .gitignore file now, if you know which files you don't want to be tracked now, Octocat has a good [Gist](https://gist.github.com/octocat/9257657) of common .gitignore configurations.
+
+Lastly you have to choose on a licence for your repository, both public and private repositories should have a licence. As you can use Github for a variety of different reasons the licence is down to your choice. Github created [this](https://choosealicense.com/) to help you decide which licence to use. If you need additional information and guidance for choosing a licence [click here](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project).
+
+![.gitignore and licence](https://user-images.githubusercontent.com/44203462/51059002-9a7a2880-15e2-11e9-839b-d81399761145.png)
+
+(d) Once you've created your repository you can go ahead and open up your Windows Command Prompt, Linux Terminal or Mac Terminal. I'll assume you have a decent grasp of using the command line interface (e.g. navigating through folders). So you're going navigate to wherever you want your Github repository in your cmd/terminal window. Once you reach the folder, head back to your Github repository in your browser and click on "Clone or download"
+
+![clone](https://user-images.githubusercontent.com/44203462/51059002-9a7a2880-15e2-11e9-839b-d81399761145.png)
+
+and copy the HTTPS url. Back in your cmd/terminal window type "git clone https://github.com/your_username/your_repo_name.git" (paste the link from Github). This will clone your repository from Github to your local file system.
 
 ## Let's try that out now.
 Example git clone.
