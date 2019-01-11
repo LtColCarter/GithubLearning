@@ -39,9 +39,18 @@ Lastly you have to choose on a licence for your repository, both public and priv
 
 (d) Once you've created your repository you can go ahead and open up your Windows Command Prompt, Linux Terminal or Mac Terminal. I'll assume you have a decent grasp of using the command line interface (e.g. navigating through folders). So you're going navigate to wherever you want your Github repository in your cmd/terminal window. Once you reach the folder, head back to your Github repository in your browser and click on "Clone or download"
 
-![clone](https://user-images.githubusercontent.com/44203462/51059002-9a7a2880-15e2-11e9-839b-d81399761145.png)
+![clone](https://user-images.githubusercontent.com/44203462/51059238-6e12dc00-15e3-11e9-8c75-a24abaa958b8.png)
 
-and copy the HTTPS url. Back in your cmd/terminal window type "git clone https://github.com/your_username/your_repo_name.git" (paste the link from Github). This will clone your repository from Github to your local file system.
+and copy the HTTPS url. Back in your cmd/terminal window type:
+
+`git clone [your link from Github]`
+This will clone your repository from Github to your local file system. For me my code would look like:
+
+`git clone https://github.com/LtColCarter/GithubLearning.git`
 
 ## Let's try that out now.
-Example git clone.
+*Please note that for this example I will be using a public repository so a few things might be different for a private repository, but nothing major.*
+
+This is what you should see once you've run the code:
+
+![Cloning Example](https://user-images.githubusercontent.com/44203462/51059566-90592980-15e4-11e9-8286-0290bf6fcf1f.png)
